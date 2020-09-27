@@ -1,15 +1,16 @@
 {
   "name": "@adinvadim/nuxt-segment-analytics",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "NuxtJS module for Segment Analytics.js",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Vadim Kostin <adin.vadim@gmail.com>"
-    }
+    "Vadim Kostin <adin.vadim@gmail.com>"
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/adinvadim/nuxt-segment-analytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adinvadim/nuxt-segment-analytics.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -48,5 +49,20 @@
     "jsdom": "latest",
     "nuxt-edge": "latest",
     "standard-version": "latest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/adinvadim/nuxt-segment-analytics/issues"
+  },
+  "homepage": "https://github.com/adinvadim/nuxt-segment-analytics#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "nuxt",
+    "segment",
+    "analytics"
+  ],
+  "author": "adinvadim"
 }

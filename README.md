@@ -1,4 +1,4 @@
-# nuxt-segment-analytics
+# @adinvadim/nuxt-segment-analytics
 
 [![David-DM][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
@@ -25,10 +25,10 @@ You can make called with this.$analytics.track()
 {
   modules: [
     // Simple usage
-    'nuxt-segment-analytics',
+    '@adinvadim/nuxt-segment-analytics',
 
     // With options
-    ['nuxt-segment-analytics', { id: "SEGMENT_KEY", useRouter: true }],
+    ['@adinvadim/nuxt-segment-analytics', { id: "SEGMENT_KEY", useRouter: true }],
  ]
 }
 ```
@@ -37,12 +37,12 @@ You can make called with this.$analytics.track()
 ```js
 export default {
   mounted () {
-    this.$analytics.identify('f4ca124298', {
+    this.$segment.identify('f4ca124298', {
       name: 'Michael Bolton',
       email: 'mbolton@initech.com'
     })
-    this.$analytics.track('Signed Up', { plan: 'Enterprise' })
-    this.$analytics.page('Pricing');
+    this.$segment.track('Signed Up', { plan: 'Enterprise' })
+    this.$segment.page('Pricing');
   }
 }
 ```
@@ -54,11 +54,6 @@ export default {
 - Install dependencies using `yarn install` or `npm install`
 - Start development server using `npm run dev`
 
-## License
-
-[MIT License](./LICENSE)
-
-Copyright (c) Dylan Wight <dylan@otechie.com>
 
 <!-- Badges -->
 [david-dm-src]: https://david-dm.org/https://github.com/dgwight/nuxt-segment-analytics/status.svg?style=flat-square
