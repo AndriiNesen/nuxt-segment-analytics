@@ -1,18 +1,15 @@
 {
   "name": "@adinvadim/nuxt-segment-analytics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NuxtJS module for Segment Analytics.js",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Dylan Wight <dylan@otechie.com>"
-    },
     {
       "name": "Vadim Kostin <adin.vadim@gmail.com>"
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/https://github.com/adinvadim/nuxt-segment-analytics",
+  "repository": "https://github.com/adinvadim/nuxt-segment-analytics",
   "publishConfig": {
     "access": "public"
   },
